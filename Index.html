@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Games</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style-Index.css">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="javascript" type="text/js" href="">
+    </head>
+
+    <body>
+
+        <div class="box-1">   </div>
+      
+        <div class="content">
+                <img src="./image/mygames.svg" width="300">
+                
+            <p>
+                
+                Hi everyone, this is a website to show the games I like.<br>
+                I will be showing by category:<br>
+                <span id="text">If you want, you can watch a short video of each game by clicking on this icon:</span> 
+                <span id="img"><a href="trailers.html" alt="Page Slide"><img src="./image/trailers.svg" width="50px"></a></span>
+            </p>
+        </div>
+
+    <div class="box-2"></div>
+
+    <div class="content">
+        
+        <h3>    Crash Bandicoot    </h3>
+        <p>
+            Crash was my first game on the "PlayStation" console and I even played the last version<br> 
+            released and it's good that it remains the same gameplay as the previous ones.
+        </p>
+
+    </div>
+    <div class="box-3">    </div>
+
+    <div class="content">
+        <h3>    Donkey Kong Country   </h3>
+        <p>
+            Donkey Kong was my first game on the "Super Nintendo" console and that marked my childhood a lot.
+        </p>
+
+    </div>
+
+    <div class="box-5">   </div>
+
+    <div class="content">
+        <h3>    Final Fantasy IX   </h3>
+        <p>
+            My first and longest RPG game. The story, gameplay and effects for this game were amazing.
+        </p>
+
+    </div>
+
+    <div class="box-6"> </div>
+
+    <div class="content">
+        <h3>    Magaman 11  </h3>
+        <p>
+            This amazing game I played for "Super Nintendo", "PS1-2" and "PC" consoles, <br>
+            but the best for the Super Nintendo console was the best.
+        </p>
+
+    </div>
+
+    <div class="box-7"> </div>
+
+    <div class="content">
+        <h3> Metroid Dread  </h3>
+        <p>
+            I got to know this game on the Super Nintendo and I'm glad <br>
+            they released it for Nintendo Switch with the same gameplay.
+        </p>
+
+    </div>
+
+    <div class="box-8"> </div>
+
+    <div class="content">
+        <h3> Resident Evil 2  </h3>
+        <p>
+            This is one of the best, because I met it on PS1, then I played it on PS2, <br>
+            and years later they released the "Remake" version with beautiful graphics.
+        </p>
+
+    </div>
+    <div class="box-9"> </div>
+
+    <div class="content">
+        <h3> Age Of Empires II </h3>
+        <p>
+            Amazing gameplay and every time I play online the matches last about 2 hours.
+        </p>
+
+    </div>
+
+    <div class="box-10"> </div>
+
+    <div class="content">
+        <h3> COD Warzone </h3>
+        
+        <p>
+            One of the best FPS games I've ever seen.
+        </p>
+
+    </div>
+
+    <div class="box-11"> </div>
+    <footer class="content-1">
+        <h3> League Of Legends </h3>
+        <p>In my opinion the game League of Legends for me remains<br> 
+            the best MMORPG game. Every week I play this game.</p>
+        <p> © Luis Oliveira - Thank you </p>
+    </footer>
+            <button onclick="backToTop();" id="btnTop"><img src="./image/black-arrow.png" alt="Top"></button>
+
+            <script>
+                window.onscroll = function(){
+                    scroll();
+                }
+                function scroll(){
+                    var btn = document.getElementById('btnTop');
+                    if(document.documentElement.scrollTop > 100){
+                        btn.style.display = 'block';
+
+                    } else{
+                        btn.style.display = 'none';
+                    }
+                }
+                function backToTop(){
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+                
+    </body>
+</html>

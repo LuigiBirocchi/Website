@@ -1,0 +1,72 @@
+body, #slider, .cover, .slide-content{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.cover {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.show1{background-image: url("../image/allgames.jpg");}
+.show2{background-image: url("../image/02-Crash1.png");}
+.show3{background-image: url("../image/03-DonkeyKong1.jpg");}
+.show5{background-image: url("../image/04-FinalFantasy12.png");}
+.show6{background-image: url("../image/05-MegaMan1.jpg");}
+.show7{background-image: url("../image/06-MetroidDread1.jpg");}
+.show8{background-image: url("../image/07-ResidentEvil1.jpg");}
+.show9{background-image: url("../image/08-AOE1.jpg");}
+.show10{background-image: url("../image/09-CODWarzone1.jpg");}
+.show11{background-image: url("../image/10-LOL1.jpg");}
+
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#img{
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.slide-content span{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
